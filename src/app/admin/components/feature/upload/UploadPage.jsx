@@ -4,6 +4,8 @@ import React, { useState } from "react";
 import axios from "axios";
 import { BackUrl } from "@/lib/utils";
 const UploadPage = () => {
+
+
     const [file, setFile] = useState(null);
     const [loading, setLoading] = useState(false);
     const [result, setResult] = useState(null);
@@ -54,7 +56,7 @@ const UploadPage = () => {
                     />
 
                     <div className="mb-3 rounded-full bg-white/10 px-4 py-2 text-sm text-white">
-                         XLSX File
+                        XLSX File
                     </div>
 
                     <p className="text-sm text-neutral-400">
@@ -83,6 +85,7 @@ const UploadPage = () => {
                             <p className="text-2xl font-semibold text-white">
                                 {result.total}
                             </p>
+                            <p>{((result.total / 2664) * 100).toFixed(2)}%</p>
                         </div>
 
                         <div className="space-y-2">
