@@ -64,8 +64,8 @@
 
 import React from "react";
 import axios from "axios";
+import { API_URL } from "@/lib/utils";
 
-const API_URL = "http://localhost:9000";
 
 export function useCameraDaily(initialRange = "30") {
   const [range, setRange] = React.useState(initialRange);
