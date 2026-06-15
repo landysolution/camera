@@ -1,0 +1,98 @@
+const law = [
+    {
+        id: 1,
+        title: "Төрийн болон орон нутгийн өмчийн тухай хууль",
+        type: "law",
+        category: "Өмчийн эрх",
+        href: "https://legalinfo.mn/mn/detail?lawId=492",
+    },
+    {
+        id: 2,
+        title: "Төрийн албаны тухай хууль",
+        type: "law",
+        category: "Албан хаагч",
+        href: "https://www.legalinfo.mn/mn/detail/13025",
+    },
+    {
+        id: 3,
+        title: "Төсвийн тухай хууль",
+        type: "law",
+        category: "Санхүү",
+        href: "https://legalinfo.mn/mn/detail/12254",
+    },
+    {
+        id: 4,
+        title: "Хөдөлмөрийн тухай хууль",
+        type: "law",
+        category: "Албан хаагч",
+        href: "https://legalinfo.mn/mn/detail?lawId=16230709635751",
+    },
+    {
+        id: 5,
+        title: "Нийтийн мэдээллийн ил тод байдлын тухай хууль",
+        type: "law",
+        category: "Ил тод байдал",
+        href: "https://legalinfo.mn/mn/detail?lawId=16390263044601",
+    },
+    {
+        id: 6,
+        title: "Кибер аюулгүй байдлын тухай хууль",
+        type: "law",
+        category: "Аюулгүй байдал",
+        href: "https://legalinfo.mn/mn/detail?lawId=16390365491061",
+    },
+    {
+        id: 7,
+        title: "Байгууллагын нууцын тухай хууль",
+        type: "law",
+        category: "Аюулгүй байдал",
+        href: "https://legalinfo.mn/mn/detail?lawId=102",
+    },
+    {
+        id: 8,
+        title: "Зөрчлийн тухай хууль",
+        type: "law",
+        category: "Хууль сахиулалт",
+        href: "https://legalinfo.mn/mn/detail?lawId=103687",
+    },
+    {
+        id: 9,
+        title: "Хүний хувийн мэдээлэл хамгаалах тухай хууль",
+        type: "law",
+        category: "Нууцлал",
+        href: "https://legalinfo.mn/mn/detail?lawId=16390288615991",
+    },
+
+    {
+        id: 10,
+        title: "Монгол улсын төрийн болон албаны нууцыг хамгаалах нийтлэг журам",
+        type: "regulation",
+        category: "Аюулгүй байдал",
+        href: "https://legalinfo.mn/mn/detail/12885/2/208025",
+    },
+    {
+        id: 11,
+        title: "Кибер аюулгүй байдлыг хангах нийтлэг журам",
+        type: "regulation",
+        category: "Аюулгүй байдал",
+        href: "https://legalinfo.mn/mn/detail?lawId=16759862495731",
+    },
+
+    {
+        id: 12,
+        title: "Төрийн албаны үйл ажиллагаанд тавигдах ерөнхий шаардлага",
+        type: "standard",
+        code: "MNS7068:2025",
+        year: "2025",
+        category: "Үйл ажиллагаа",
+    },
+    {
+        id: 13,
+        title: "Теле хяналтын системийн ерөнхий шаардлага",
+        type: "standard",
+        code: "MNS 6423:2019",
+        year: "2019",
+        category: "Техникийн шаардлага",
+    },
+];
+export default law
